@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<event-report domain="cat" startTime="2016-08-26 15:00:00" period="HOUR">
+   <ip>10.38.0.14</ip>
+   <ip>10.38.0.15</ip>
+   <ip>10.38.0.16</ip>
+   <machine ip="All">
+      <type id="Reboot" totalCount="1" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-76</successMessageUrl>
+      </type>
+      <type id="SQL.Database" totalCount="138" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-30</successMessageUrl>
+      </type>
+      <type id="SQL.Method" totalCount="69" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-30</successMessageUrl>
+      </type>
+      <type id="URL" totalCount="222" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-72</successMessageUrl>
+      </type>
+      <type id="URL.Forward" totalCount="18" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-73</successMessageUrl>
+      </type>
+   </machine>
+</event-report>

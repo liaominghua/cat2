@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<event-report domain="cat" startTime="2016-08-26 15:00:00" period="HOUR">
+   <ip>10.38.0.14</ip>
+   <ip>10.38.0.15</ip>
+   <ip>10.38.0.16</ip>
+   <machine ip="10.38.0.14">
+      <type id="URL" totalCount="0" failCount="0" failPercent="0.00" tps="0.00">
+      </type>
+   </machine>
+   <machine ip="10.38.0.15">
+      <type id="URL" totalCount="0" failCount="0" failPercent="0.00" tps="0.00">
+      </type>
+   </machine>
+   <machine ip="10.38.0.16">
+      <type id="URL" totalCount="0" failCount="0" failPercent="0.00" tps="0.00">
+      </type>
+   </machine>
+   <machine ip="All">
+      <type id="URL" totalCount="0" failCount="0" failPercent="0.00" tps="0.00">
+      </type>
+   </machine>
+</event-report>

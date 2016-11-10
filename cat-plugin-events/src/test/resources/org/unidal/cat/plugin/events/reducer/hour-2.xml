@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events-report startTime="2016-08-26 16:00:00" period="HOUR">
+   <bu>framework</bu>
+   <bu>hotel</bu>
+   <department id="framework">
+      <type id="URL" totalCount="66" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+         <name id="URL.Server" totalCount="33" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+            <range value="56" count="33" fails="0"/>
+            <domain id="cat" totalCount="33" failCount="0" failPercent="0.00" tps="0.00"/>
+         </name>
+         <name id="URL.Method" totalCount="33" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+            <range value="56" count="33" fails="0"/>
+            <domain id="cat" totalCount="33" failCount="0" failPercent="0.00" tps="0.00"/>
+         </name>
+      </type>
+   </department>
+   <department id="hotel">
+      <type id="URL" totalCount="33" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+         <name id="URL.Server" totalCount="33" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+            <range value="56" count="33" fails="0"/>
+            <domain id="cat" totalCount="33" failCount="0" failPercent="0.00" tps="0.00"/>
+         </name>
+      </type>
+   </department>
+</events-report>
+

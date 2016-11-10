@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events-report startTime="2016-08-01 00:00:00" period="MONTH">
+   <bu>framework</bu>
+   <bu>hotel</bu>
+   <bu>flight</bu>
+   <department id="framework">
+      <type id="URL" totalCount="594" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+         <name id="URL.Server" totalCount="297" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+            <range value="26" count="99" fails="0"/>
+            <range value="27" count="99" fails="0"/>
+            <range value="28" count="99" fails="0"/>
+         </name>
+         <name id="URL.Method" totalCount="297" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+            <range value="26" count="99" fails="0"/>
+            <range value="27" count="99" fails="0"/>
+            <range value="28" count="99" fails="0"/>
+         </name>
+      </type>
+   </department>
+   <department id="hotel">
+      <type id="URL" totalCount="132" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+         <name id="URL.Server" totalCount="132" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+            <range value="26" count="66" fails="0"/>
+            <range value="27" count="66" fails="0"/>
+         </name>
+      </type>
+   </department>
+   <department id="flight">
+      <type id="URL" totalCount="33" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+         <name id="URL.Method" totalCount="33" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+            <range value="26" count="33" fails="0"/>
+         </name>
+      </type>
+   </department>
+</events-report>

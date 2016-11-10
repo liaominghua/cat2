@@ -1,0 +1,8 @@
+<plexus>
+	<components>
+		<component>
+			<role>org.unidal.cat.core.view.menu.MenuManagerManager</role>
+			<implementation>org.unidal.cat.core.view.menu.DefaultMenuManagerManager</implementation>
+		</component>
+	</components>
+</plexus>

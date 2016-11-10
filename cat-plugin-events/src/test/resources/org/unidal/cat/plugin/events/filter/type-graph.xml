@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events-report startTime="2016-08-26 15:00:00" period="HOUR">
+   <bu>framework</bu>
+   <bu>hotel</bu>
+   <bu>flight</bu>
+   <department id="framework">
+      <type id="URL" totalCount="66" failCount="0" failPercent="0.00" tps="0.00">
+      </type>
+   </department>
+   <department id="hotel">
+      <type id="URL" totalCount="33" failCount="0" failPercent="0.00" tps="0.00">
+      </type>
+   </department>
+   <department id="flight">
+      <type id="URL" totalCount="33" failCount="0" failPercent="0.00" tps="0.00">
+      </type>
+   </department>
+   <department id="All">
+      <type id="URL" totalCount="132" failCount="0" failPercent="0.00" tps="0.00">
+         <name id="All" totalCount="132" failCount="0" failPercent="0.00" tps="0.00">
+            <range value="56" count="132" fails="0"/>
+         </name>
+      </type>
+   </department>
+</events-report>

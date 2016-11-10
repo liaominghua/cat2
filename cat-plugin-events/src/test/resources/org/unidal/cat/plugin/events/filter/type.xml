@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events-report startTime="2016-08-26 15:00:00" period="HOUR">
+   <bu>framework</bu>
+   <bu>hotel</bu>
+   <bu>flight</bu>
+   <department id="All">
+      <type id="URL" totalCount="132" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+      </type>
+   </department>
+</events-report>

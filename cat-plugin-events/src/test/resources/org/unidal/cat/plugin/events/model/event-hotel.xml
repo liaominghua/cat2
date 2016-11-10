@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<event-report domain="flight" startTime="2016-08-26 15:00:00" period="HOUR">
+   <ip>10.38.0.14</ip>
+   <machine ip="10.38.0.14">
+      <type id="Reboot" totalCount="1" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-76</successMessageUrl>
+         <name id="10.38.0.14" totalCount="1" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-76</successMessageUrl>
+            <range value="16" count="1" fails="0"/>
+         </name>
+      </type>
+      <type id="SQL.Database" totalCount="69" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-30</successMessageUrl>
+         <name id="jdbc:mysql://localhost:3306/cat?useUnicode=true&amp;autoReconnect=true" totalCount="69" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-30</successMessageUrl>
+            <range value="16" count="67" fails="0"/>
+            <range value="17" count="2" fails="0"/>
+         </name>
+      </type>
+      <type id="SQL.Method" totalCount="69" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-30</successMessageUrl>
+         <name id="SELECT" totalCount="69" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-30</successMessageUrl>
+            <range value="16" count="67" fails="0"/>
+            <range value="17" count="2" fails="0"/>
+         </name>
+      </type>
+      <type id="URL" totalCount="74" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-72</successMessageUrl>
+         <name id="URL.Method" totalCount="37" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-72</successMessageUrl>
+            <range value="16" count="3" fails="0"/>
+            <range value="17" count="34" fails="0"/>
+         </name>
+         <name id="URL.Server" totalCount="37" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-72</successMessageUrl>
+            <range value="16" count="3" fails="0"/>
+            <range value="17" count="34" fails="0"/>
+         </name>
+      </type>
+      <type id="URL.Forward" totalCount="18" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-73</successMessageUrl>
+         <name id="URL.Forward.Method" totalCount="18" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-73</successMessageUrl>
+            <range value="16" count="1" fails="0"/>
+            <range value="17" count="17" fails="0"/>
+         </name>
+      </type>
+   </machine>
+</event-report>
+

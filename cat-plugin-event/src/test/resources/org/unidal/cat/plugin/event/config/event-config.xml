@@ -1,0 +1,4 @@
+<event-config>
+   <ignore domain="phoenix-agent" />
+   <ignore domain="100001431" />
+</event-config>

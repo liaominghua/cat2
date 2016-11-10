@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events-report startTime="2016-08-26 15:00:00" period="HOUR">
+   <bu>Business</bu>
+   <bu>Framework</bu>
+   <department id="Business">
+      <type id="URL" totalCount="222" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-72</successMessageUrl>
+         <name id="URL.Server" totalCount="111" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-72</successMessageUrl>
+            <range value="16" count="9" fails="0"/>
+            <range value="17" count="102" fails="0"/>
+            <domain id="flight" totalCount="111" failCount="0" failPercent="0.00" tps="0.00"/>
+         </name>
+         <name id="URL.Method" totalCount="111" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-72</successMessageUrl>
+            <range value="16" count="9" fails="0"/>
+            <range value="17" count="102" fails="0"/>
+            <domain id="flight" totalCount="111" failCount="0" failPercent="0.00" tps="0.00"/>
+         </name>
+      </type>
+   </department>
+   <department id="Framework">
+      <type id="URL" totalCount="222" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-72</successMessageUrl>
+         <name id="URL.Server" totalCount="111" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-72</successMessageUrl>
+            <range value="16" count="9" fails="0"/>
+            <range value="17" count="102" fails="0"/>
+            <domain id="cat" totalCount="111" failCount="0" failPercent="0.00" tps="0.00"/>
+         </name>
+         <name id="URL.Method" totalCount="111" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-72</successMessageUrl>
+            <range value="16" count="9" fails="0"/>
+            <range value="17" count="102" fails="0"/>
+            <domain id="cat" totalCount="111" failCount="0" failPercent="0.00" tps="0.00"/>
+         </name>
+      </type>
+   </department>
+</events-report>

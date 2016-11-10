@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events-report startTime="2016-08-26 00:00:00" period="DAY">
+   <bu>framework</bu>
+   <bu>hotel</bu>
+   <bu>flight</bu>
+   <department id="framework">
+      <type id="URL" totalCount="198" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+         <name id="URL.Server" totalCount="99" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+            <range value="15" count="33" fails="0"/>
+            <range value="16" count="66" fails="0"/>
+         </name>
+         <name id="URL.Method" totalCount="99" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+            <range value="15" count="33" fails="0"/>
+            <range value="16" count="66" fails="0"/>
+         </name>
+      </type>
+   </department>
+   <department id="hotel">
+      <type id="URL" totalCount="66" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+         <name id="URL.Server" totalCount="66" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+            <range value="15" count="33" fails="0"/>
+            <range value="16" count="33" fails="0"/>
+         </name>
+      </type>
+   </department>
+   <department id="flight">
+      <type id="URL" totalCount="33" failCount="0" failPercent="0.00" tps="0.00">
+         <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+         <name id="URL.Method" totalCount="33" failCount="0" failPercent="0.00" tps="0.00">
+            <successMessageUrl>cat-0a26000e-408943-772</successMessageUrl>
+            <range value="15" count="33" fails="0"/>
+         </name>
+      </type>
+   </department>
+</events-report>
